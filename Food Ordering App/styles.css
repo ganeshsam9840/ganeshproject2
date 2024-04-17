@@ -93,4 +93,166 @@ main {
 
 .checkout-form input[type="submit"]:hover {
     background-color: #ff6a4a;
+}menu-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff; /* Background color for menu items */
+}
+
+.menu-item:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+.item-name {
+    font-size: 20px; /* Font size for item names */
+    margin-bottom: 5px;
+}
+
+.item-description {
+    margin-bottom: 10px;
+}
+
+.item-price {
+    font-weight: bold; /* Bold font for item price */
+}
+
+.add-to-cart {
+    background-color: #ff7e5f; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.add-to-cart:hover {
+    background-color: #ff6a4a; /* Change background color on hover */
+}
+.cart-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff; /* Background color for cart items */
+}
+
+.cart-item:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+.item-name {
+    font-size: 18px; /* Font size for item names */
+    margin-bottom: 5px;
+}
+
+.item-price {
+    font-weight: bold; /* Bold font for item price */
+    margin-bottom: 10px;
+}
+
+.remove-from-cart {
+    background-color: #ff7e5f; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.remove-from-cart:hover {
+    background-color: #ff6a4a; /* Change background color on hover */
+}
+
+#total {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#checkout {
+    background-color: #ff7e5f; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+#checkout:hover {
+    background-color: #ff6a4a; /* Change background color on hover */
+}
+#login-form {
+    max-width: 300px; /* Set maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Add spacing below labels */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Set input fields to full width */
+    padding: 8px; /* Add padding to input fields */
+    margin-bottom: 10px; /* Add spacing below input fields */
+    border-radius: 5px; /* Add border radius */
+    border: 1px solid #ccc; /* Add border */
+}
+
+button[type="submit"] {
+    background-color: #ff7e5f; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button[type="submit"]:hover {
+    background-color: #ff6a4a; /* Change background color on hover */
+}
+#checkout-form {
+    max-width: 400px; /* Set maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Add spacing below labels */
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%; /* Set input fields and textarea to full width */
+    padding: 8px; /* Add padding to input fields */
+    margin-bottom: 10px; /* Add spacing below input fields */
+    border-radius: 5px; /* Add border radius */
+    border: 1px solid #ccc; /* Add border */
+}
+
+select {
+    cursor: pointer; /* Set cursor to pointer for select dropdown */
+}
+
+button[type="submit"] {
+    background-color: #ff7e5f; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button[type="submit"]:hover {
+    background-color: #ff6a4a; /* Change background color on hover */
 }

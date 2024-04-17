@@ -15,16 +15,33 @@
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="cart.html">Cart</a></li>
                 <li><a href="login.html">Login</a></li>
+                <li><a href="checkout.html">checkout</a></li>
             </ul>
         </nav>
     </header>
     
     <main>
-        <!-- Content for the checkout page goes here -->
+        <h2>Checkout</h2>
+        <form id="checkout-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment" required>
+                <option value="credit">Credit Card</option>
+                <option value="debit">Debit Card</option>
+                <option value="paypal">PayPal</option>
+            </select>
+            <button type="submit">Place Order</button>
+        </form>
     </main>
     
     <footer>
         <p>&copy; 2024 Food Ordering App</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
